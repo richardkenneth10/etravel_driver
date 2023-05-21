@@ -1,0 +1,43 @@
+name: etravel_driver
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  country_picker: ^2.0.20
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.2
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.19
+  flutter_secure_storage: ^8.0.0
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/launcher_icon.png"
+  min_sdk_android: 21
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/logo/logo.png
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/logo/logo.png
